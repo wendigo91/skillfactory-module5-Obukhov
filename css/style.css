@@ -1,0 +1,43 @@
+body {
+    background-image: url('../images/5.jpg');
+    background-repeat: repeat; 
+    background-color: aqua; 
+    background-position: center; 
+}
+
+.col-header {
+    background-color: skyblue;
+    min-height: 100px;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kfc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+.col-aside {
+    background-color: darkgoldenrod;
+    height: 78vh;
+    opacity: 0.9;
+}
+
+.col-main {
+    background-color: burlywood;
+    height: 78vh;
+    opacity: 0.9;
+}
+
+.col-footer {
+    background-color: yellowgreen;
+    min-height: 100px;
+    position: sticky;
+    opacity: 0.9;
+}
